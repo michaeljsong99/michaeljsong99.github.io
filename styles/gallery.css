@@ -1,0 +1,39 @@
+/* Square Grid Styles for Photos */
+.psquares-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.psquares-wrapper > .psquares {
+    width: 1000px;
+}
+
+.psquares-wrapper > .psquares > .psquare {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: -4px;
+}
+
+.psquare > .img-wrapper img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.psquare > .img-wrapper img:hover {
+    opacity: 1;
+}
+
+.psquare > .psquare-text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 42px;
+}
+
+.psquare > .psquare-text-wrapper h1{
+    color: #cea135;
+}
