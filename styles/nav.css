@@ -3,6 +3,7 @@ body {
     margin: 0px;
     font-family: 'Roboto', sans-serif;
 }
+
 /* Common Nav Styles */
 .navigation-wrapper {
     height: 190px;
@@ -44,7 +45,6 @@ body {
     font-family: 'Ubuntu Condensed', sans-serif;
     color: white;
 }
-
 
 /* Center Column Styles */
 .navigation-wrapper > .center-column {
